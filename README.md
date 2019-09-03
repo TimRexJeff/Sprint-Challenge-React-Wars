@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+    React is a library. It solves the problem of the DOM being slow by using a "virtual" Dom as an overlay to update changes to a webpage without updating the entire webpage.
+
 - [ ] What does it mean to _think_ in react?
+
+    Mock up -> Component Hierarchy -> Static Build -> UI State -> Data Flow
 
 - [ ] Describe state.
 
+    props (short for “properties”) and state are both plain JavaScript objects. While both hold information that influences the output of render, they are different in one important way: props get passed to the component (similar to function parameters) whereas state is managed within the component (similar to variables declared within a function).
+
 - [ ] Describe props.
 
+    props (short for “properties”) and state are both plain JavaScript objects. While both hold information that influences the output of render, they are different in one important way: props get passed to the component (similar to function parameters) whereas state is managed within the component (similar to variables declared within a function).
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+    A side effect is when a function's effect happens outside of that function's scope. We can add useEffect() to not only prevent side effects from happening unexpectedly, but also use the side effects to our advantage when we want to.
 
 ## Project Set Up
 
