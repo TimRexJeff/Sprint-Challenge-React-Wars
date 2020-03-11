@@ -1,0 +1,21 @@
+.char-card {
+    width: 700px;
+    max-width: 90%;
+    margin: 50px;
+    img {
+        width: 100%;
+        height: auto 0px;
+        object-fit: cover;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    h2 {
+        margin-top: 0;
+        padding-top: 25px;
+        background: linear-gradient(#e0e0e0, #ffffff);
+    }
+    .content {
+        font-size: 0.8rem;
+        line-height: 1.5;
+    }
+}
